@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo wpa_supplicant -Dwext -i ra0 -c/etc/wpa_supplicant.conf;
+sleep 10s;
+sudo dhclient ra0;
