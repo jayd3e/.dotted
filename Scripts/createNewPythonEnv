@@ -1,4 +1,8 @@
-#You ahve to install virtualenv through pip before running this script.
+#You have to install virtualenv through pip before running this script.
+cd ~/Downloads
+wget http://pypi.python.org/packages/source/v/virtualenv/virtualenv-1.6.1.tar.gz#md5=1a475df2219457b6b4febb9fe595d915
+tar xzvf virtualenv-1.6.1.tar.gz
+python2 virtualenv-1.6.1/setup.py install
 cd ~/Environments/tmp
 wget http://www.python.org/ftp/python/3.2/Python-3.2.tgz
 tar xvzf ~/Environments/tmp/Python-3.2.tgz
