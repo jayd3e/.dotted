@@ -1,3 +1,5 @@
 [user]
 	name = Joe Dallago
 	email = jd.dallago@gmail.com
+[alias]
+	unadd = reset HEAD
