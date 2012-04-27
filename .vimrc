@@ -9,6 +9,7 @@ set shiftwidth=4
 map <leader>v :new ~/.vimrc<Return>
 map <leader>P Oimport pdb;pdb.set_trace()<Esc>
 map <leader>p oimport pdb;pdb.set_trace()<Esc>
+
 if has("autocmd")
    filetype on
    filetype plugin indent on
@@ -26,5 +27,6 @@ set title
 set expandtab
 set number
 set mouse=a
+set runtimepath+=$HOME/.vim/bundle/The-NERD-Tree
 
-map <leader>v :new ~/.vimrc<Return>
+runtime bundle/The-NERD-Tree/plugin/The-NERD-Tree.vim
