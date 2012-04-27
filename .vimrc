@@ -1,6 +1,6 @@
 set t_Co=256
 syntax on
-colorscheme desert
+colorscheme wombat
 set expandtab
 set tabstop=4
 set softtabstop=4
@@ -9,6 +9,7 @@ set shiftwidth=4
 map <leader>v :new ~/.vimrc<Return>
 map <leader>P Oimport pdb;pdb.set_trace()<Esc>
 map <leader>p oimport pdb;pdb.set_trace()<Esc>
+nmap <silent> <C-n> :NERDTreeToggle<CR>
 
 if has("autocmd")
    filetype on
