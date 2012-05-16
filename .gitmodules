@@ -1,3 +1,9 @@
 [submodule ".vim/bundle/The-NERD-tree"]
 	path = .vim/bundle/The-NERD-tree
 	url = https://github.com/vim-scripts/The-NERD-tree
+[submodule "st2_packages/sublime-text-2-ini"]
+	path = st2_packages/sublime-text-2-ini
+	url = https://github.com/clintberry/sublime-text-2-ini.git
+[submodule "st2_packages/less.tmbundle"]
+	path = st2_packages/less.tmbundle
+	url = https://github.com/appden/less.tmbundle.git
