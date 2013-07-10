@@ -3,3 +3,5 @@
 	email = jd.dallago@gmail.com
 [alias]
 	unadd = reset HEAD
+[color]
+	ui = true
