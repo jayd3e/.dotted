@@ -1,4 +1,4 @@
-export PATH=/usr/local/mysql/bin/:usr/local/bin:/usr/local/sbin:$PATH
+export PATH=usr/local/bin:/usr/local/sbin:$PATH
 
 alias ls='ls -G'
 alias la='ls -a'
